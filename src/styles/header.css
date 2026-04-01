@@ -24,5 +24,61 @@ header {
 .nav-item a {
     text-decoration: none;
     color: #1d1d1dad;
-    font-weight: 7;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+
+#mobile_btn{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1170px){
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+    #mobile_btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; /* Garante que ele se posicione sobre o conteúdo */
+    top: 80px; /* Ajuste conforme a altura do seu header */
+    left: 0;
+    width: 100%;
+    background-color: #fff9ea; /* Cor de fundo igual ao body */
+    z-index: 10; /* Garante que fique na frente de outros elementos */
+}
+
+    #mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item{
+        list-style: none;
+        text-align: center;
+    }
+}
+
+/*ESCONDER A LISTA*/
+#nav_list, #mobile_nav_list {
+    list-style: none;
 }
