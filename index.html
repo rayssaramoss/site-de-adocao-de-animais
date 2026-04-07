@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="src/styles/animais.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Adota aqui!</title>
@@ -25,12 +27,12 @@
                     <a href="#animals">Animais</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact">Contato</a>
+                    <a href="#contact">Avaliações</a>
                 </li>
             </ul>
 
             <button class="btn-default">
-                Botao
+                Adote Aqui!
             </button>
 
             <button id="mobile_btn">
@@ -46,7 +48,7 @@
             </ul>
 
             <button class="btn-default">
-                Botao
+                Adote aqui
             </button>
         </div>
     </header>
@@ -61,7 +63,7 @@
                 Caudas <span>felizes</span>, famílias <span>felizes</span>.
                 </h1>
 
-                <p class="description">aaaaaaaaaaa</p>
+                <p class="description">Mais que um site, uma ponte para o amor de quatro patas.</p>
 
                 <div id="cta_buttons">
                     <a href="#" class="btn-default">AUmigos disponíveis</a>
@@ -84,99 +86,128 @@
         </section>
 
         <section id="pets"> <!-- MENU -->
-            <h2 class="section-title">Aumigos</h2>
+            <h2 class="section-title"><strong>Aumigos</strong></h2>
             <h3 class="section-subtitle">Aumigos disponíveis para adoção</h3>
 
-            <div id="animais"> <!-- dishes -->
-                <div class="animal"> <!-- dish -->
-                    <div class="pet-heart"> <!-- dish heart -->
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    
-                    <img src="/src/images/cachorrogrande.png" class="pet-image"  width="200">
-                    
-                    <h3 class="pet-title"> <!-- dish title -->
-                        NOME PET
-                    </h3>
-                    <SPAN clas="pet-description"> <!-- dish description -->
-                        DESCRIÇÃO
-                    </SPAN>
-                </div>
-
-                <div class="pet-localization"> <!-- dish-price -->
-                    <h4>Belo Jardim, PE</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid">Disponível para Adoção</i>
-                    </button>
-                </div>
-
-                <div id="animais">
-                <div class="animal">
-                    <div class="pet-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <img src="/src/images/gatocinza.png" class="pet-image"  width="200">
-                    <h3 class="pet-title">
-                        NOME PET
-                    </h3>
-                    <SPAN clas="pet-description">
-                        DESCRIÇÃO
-                    </SPAN>
-                </div>
-
-                <div class="pet-localization">
-                    <h4>Belo Jardim, PE</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid">Disponível para Adoção</i>
-                    </button>
-                </div>
-            </div>
-
             <div id="animais">
-                <div class="animal">
-                    <div class="pet-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <img src="/src/images/cachorrosalsicha.png" class="pet-image"  width="200">
-                    <h3 class="pet-title">
-                        NOME PET
-                    </h3>
-                    <SPAN clas="pet-description">
-                        DESCRIÇÃO
-                    </SPAN>
-                </div>
+        <div class="animal">
+            <div class="pet-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/images/cachorrogrande.png" class="pet-image" width="200">
+            <h3 class="pet-title">Meg</h3>
+            <span class="pet-description">Beagle fêmea de 4 anos</span>
+            <div class="pet-info">
+                <button class="btn-default">
+                    <i class="fa-solid">Disponível para Adoção</i>
+                </button>
+            </div>
+        </div>
 
-                <div class="pet-localization">
-                    <h4>Belo Jardim, PE</h4>
+        <div class="animal">
+            <div class="pet-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/images/gatocinza.png" class="pet-image" width="262">
+            <h3 class="pet-title">Frajola</h3>
+            <span class="pet-description">SRD de 5 anos</span>
+            <div class="pet-info">
+                <button class="btn-default">
+                    <i class="fa-solid">Disponível para Adoção</i>
+                </button>
+            </div>
+        </div>
+
+        <div class="animal">
+            <div class="pet-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/images/cachorrosalsicha.png" class="pet-image" width="200">
+            <h3 class="pet-title">Salsicho</h3>
+            <span class="pet-description">Dachsund de 6 anos</span>
+            <div class="pet-info">
+                <button class="btn-default">
+                    <i class="fa-solid">Disponível para Adoção</i>
+                </button>
+            </div>
+        </div>
+
+        <div class="animal">
+            <div class="pet-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/images/gatolaranja.png" class="pet-image" width="200">
+            <h3 class="pet-title">Garfield</h3>
+            <span class="pet-description">SRD laranja de 7 meses</span>
+            <div class="pet-info">
+                <button class="btn-default">
+                    <i class="fa-solid">Disponível para Adoção</i>
+                </button>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/homemecachorro.png" id="testimonial_man"width="300">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nosso trabalho
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar">
+                    
+                        <div class="feedback-content">
+                            <p>
+                                Maria
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Encontrei meu melhor amigo. Dá para ver 
+                                como os bichanos são tratados com amor."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar">
+                    
+                        <div class="feedback-content">
+                            <p>
+                                Cláudia
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Adote!"
+                            </p>
+                        </div>
+                    </div>
+
                     <button class="btn-default">
-                        <i class="fa-solid">Disponível para Adoção</i>
+                        Ver mais
                     </button>
                 </div>
-            </div>
-
-            <div id="animais">
-                <div class="animal">
-                    <div class="pet-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <img src="/src/images/gatolaranja.png" class="pet-image"  width="200">
-                    <h3 class="pet-title">
-                        NOME PET
-                    </h3>
-                    <SPAN clas="pet-description">
-                        DESCRIÇÃO
-                    </SPAN>
-                </div>
-
-                <div class="pet-localization">
-                    <h4>Belo Jardim, PE</h4>
-                    <button class="btn-default">
-                        <i class="fa-solid">Disponível para Adoção</i>
-                    </button>
-                </div>
-            </div>
             </div>
         </section>
+        
     </main>
     
     <script src="src/styles/script.js"></script>
