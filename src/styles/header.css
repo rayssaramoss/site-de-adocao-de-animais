@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: #fff9ea;
+    background-color: var(--color-primary1);
     z-index: 3;
 }
 
@@ -16,7 +16,7 @@ header {
 
 #nav_logo{
     font-size: 24px;
-    color: #e9a209;
+    color: var(--color-primary6);
 }
 
 #nav_list {
@@ -27,13 +27,13 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1dad;
+    color: var(--color-neutral-9);
     font-weight: 600;
 }
 
 .nav-item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid #ffe100;
+    color: var(--color-neutral-9);
+    border-bottom: 3px solid var(--color-primary4);
 }
 
 #mobile_btn{
@@ -65,7 +65,7 @@ header {
     top: 80px; /* Ajuste conforme a altura do seu header */
     left: 0;
     width: 100%;
-    background-color: #fff9ea; /* Cor de fundo igual ao body */
+    background-color: var(--color-primary1); /* Cor de fundo igual ao body */
     z-index: 10; /* Garante que fique na frente de outros elementos */
 }
 
