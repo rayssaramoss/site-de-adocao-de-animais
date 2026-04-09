@@ -1,0 +1,91 @@
+    #banner_title {
+    background-color: var(--color-primary6); /* Cor azulada da imagem */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#pet_details_container {
+    padding: 20px 8%;
+}
+
+.breadcrumb {
+    margin-bottom: 30px;
+    color: var(--color-primary6);
+    font-size: 0.9rem;
+}
+
+.breadcrumb .active {
+    color: #e9a209;
+    font-weight: bold;
+}
+
+#pet_info_section {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.pet_image_col {
+    width: 50%;
+}
+
+.pet_image_col img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image_dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: #ff6a00; /* Cor azul do ponto na imagem */
+}
+
+.pet_data_col {
+    width: 50%;
+}
+
+.pet_name {
+    color: var(--color-primary5);;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pet_specs {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.pet_specs li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+#btn_adotar_pet {
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+/* Responsividade básica */
+@media screen and (max-width: 768px) {
+    #pet_info_section {
+        flex-direction: column;
+    }
+    .pet_image_col, .pet_data_col {
+        width: 100%;
+    }
+}

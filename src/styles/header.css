@@ -79,6 +79,7 @@ header {
     #mobile_nav_list .nav-item{
         list-style: none;
         text-align: center;
+        margin-bottom: 5px;
     }
 }
 
